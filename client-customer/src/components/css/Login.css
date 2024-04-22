@@ -1,0 +1,83 @@
+/* CSS tùy chỉnh cho trang đăng nhập */
+.wrapper {
+	background-color: #f8f9fa;
+	/* Màu nền chung */
+}
+
+.login-container {
+	background-color: #ffffff;
+	/* Màu nền của container */
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+	/* Đổ bóng cho container */
+	max-width: 400px;
+	margin: 0 auto;
+}
+
+.login-container h2 {
+	font-size: 24px;
+	font-weight: bold;
+	color: #343a40;
+	/* Màu chữ cho tiêu đề */
+}
+
+.form-group label {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.form-control {
+	font-size: 16px;
+}
+
+.btn-primary {
+	background-color: #007bff;
+	/* Màu nút đăng nhập */
+	border: none;
+}
+
+.btn-primary:hover {
+	background-color: #0056b3;
+	/* Màu nút khi hover */
+}
+
+.btn-primary:focus {
+	box-shadow: none;
+	/* Loại bỏ đổ bóng khi focus */
+}
+
+.w-100 {
+	width: 100%;
+	/* Chiều rộng 100% */
+}
+
+.mt-3 {
+	margin-top: 15px;
+	/* Khoảng cách từ nút đăng nhập đến các phần tử phía trên */
+}
+
+/* Thêm kiểu validate cho các input yêu cầu nhập dữ liệu */
+.form-group input:required:invalid {
+	border: 1px solid red;
+}
+
+.form-group input:required:valid {
+	border: 1px solid #ced4da;
+}
+
+/* Chỉnh kích thước input số lượng */
+.form-group input[type="number"] {
+	width: 70px;
+}
+
+/* Ẩn các mũi tên trong input number */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+input[type="number"] {
+	-moz-appearance: textfield;
+}

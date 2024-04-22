@@ -1,0 +1,89 @@
+/* File styles.css */
+
+/* Phần chung cho các trang */
+.wrapper {
+	background-color: #f2f2f2;
+}
+
+.align-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.text-center {
+	text-align: center;
+}
+
+/* Phần giao diện cho trang Login và Signup */
+.login-container {
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	padding: 20px;
+	max-width: 400px;
+	width: 100%;
+}
+
+.login-container h2 {
+	font-size: 24px;
+	font-weight: bold;
+	margin-bottom: 15px;
+}
+
+.login-container form {
+	margin-top: 20px;
+}
+
+.form-group {
+	margin-bottom: 20px;
+}
+
+.form-group label {
+	font-size: 14px;
+	font-weight: bold;
+	display: block;
+	margin-bottom: 5px;
+}
+
+.form-control {
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	width: 100%;
+}
+
+.form-control:focus {
+	border-color: #007bff;
+	box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.btn-primary {
+	background-color: #007bff;
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 10px 20px;
+	border-radius: 5px;
+	border: none;
+	width: 100%;
+}
+
+.btn-primary:hover {
+	background-color: #0056b3;
+	cursor: pointer;
+}
+
+/* Phần giao diện cho trang Signup */
+.login-container label {
+	color: #333;
+}
+
+.login-container .btn-primary {
+	background-color: #28a745;
+}
+
+.login-container .btn-primary:hover {
+	background-color: #218838;
+}

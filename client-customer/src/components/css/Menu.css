@@ -1,0 +1,62 @@
+.bg-body-tertiary {
+	margin: 10px;
+
+}
+
+/* Menu.css */
+
+.bg-body-tertiary {
+	background-color: purple;
+	/* Màu nền */
+}
+
+.keyword {
+	width: 250px;
+	/* Độ rộng ô tìm kiếm */
+}
+
+/* Thay đổi màu chữ cho phần login và sign-up */
+.non {
+	color: #007bff;
+	text-decoration: none;
+	margin-right: 10px;
+}
+
+/* Hiển thị ảnh logo một cách tốt hơn */
+.navbar-brand img {
+	margin-right: 10px;
+	width: 30px;
+	height: 30px;
+	object-fit: cover;
+	border-radius: 50%;
+}
+
+/* Đổi màu chữ khi hover lên tên người dùng */
+.navbar-nav .nav-link:hover {
+	color: #007bff;
+}
+
+/* Định dạng lại dropdown */
+.navbar-nav .dropdown-menu {
+	background-color: #f8f9fa;
+	/* Màu nền dropdown */
+	border: none;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	/* Hiệu ứng bóng đổ */
+}
+
+.navbar-nav .dropdown-item {
+	color: #333;
+	/* Màu chữ trong dropdown item */
+}
+
+/* Thay đổi màu chữ khi hover lên các item trong dropdown */
+.navbar-nav .dropdown-item:hover {
+	color: #007bff;
+	background-color: #f8f9fa;
+}
+
+.non:hover {
+	color: #f8f9fa;
+	background-color: #007bff;
+}
